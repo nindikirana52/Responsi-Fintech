@@ -9,8 +9,11 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.ResponsiFintech">
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".SplashScreen"
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity"
+            android:label="Login"/>
+        <activity
+            android:name=".SplashScreen"
             android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
