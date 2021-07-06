@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ResponsiFintech">
         <activity android:name=".MainActivity" />
-        <activity android:name=".RegisterActivity"
+        <activity android:name=".RecoveryActivity"
             android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:label="Login" />

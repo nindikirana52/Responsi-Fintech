@@ -14,5 +14,10 @@ class LoginActivity : AppCompatActivity() {
         tvReg.setOnClickListener {
             startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
         }
+
+        val tvRec = findViewById<TextView>(R.id.tvRecovery)
+        tvRec.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, RecoveryActivity::class.java))
+        }
     }
 }
