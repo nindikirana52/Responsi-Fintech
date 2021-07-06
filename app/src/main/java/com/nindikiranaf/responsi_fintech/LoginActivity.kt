@@ -19,5 +19,10 @@ class LoginActivity : AppCompatActivity() {
         tvRec.setOnClickListener {
             startActivity(Intent(this@LoginActivity, RecoveryActivity::class.java))
         }
+
+        val btnLogin = findViewById<TextView>(R.id.btnLogin)
+        btnLogin.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, HomeActivity::class.java))
+        }
     }
 }

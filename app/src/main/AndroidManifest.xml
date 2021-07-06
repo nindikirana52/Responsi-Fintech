@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ResponsiFintech">
         <activity android:name=".MainActivity" />
-        <activity android:name=".RecoveryActivity"
-            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".HomeActivity"
+            android:label="Bayar Dulu"/>
+        <activity
+            android:name=".RecoveryActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".RegisterActivity"
             android:theme="@style/Theme.Design.NoActionBar" />
